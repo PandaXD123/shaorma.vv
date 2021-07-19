@@ -1,0 +1,122 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom right, grey, black);
+    background-image: url("table-blurry2.jpg");
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+p.titlu {
+  font-size: 35px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(0. 0. 0. 0.1);
+  position:static;
+  width: 97.5%;
+  background-color: #212124;
+  text-shadow: 3px 3px 1.5px #212124;
+  z-index: 100;
+  border: 5px solid #000000;
+  opacity: 0.75;
+  margin: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.subtitlu {
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 3px 3px 1px #000000;
+  width: 18%;
+  height: 5%;
+  margin: 5px;
+  border: 3px solid #000000;
+  padding: 3px;
+  position: static;
+  z-index: 50;
+  transition: all 0.5s;
+  float: left;
+  background-color: #212124;
+  border-radius: 5px;
+  opacity: 0.75;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+p.textdescriptiv {
+  font-size: 30px;
+  color: greenyellow;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 3px 3px 2px #000000;
+  font-weight: bold;
+  float: center;
+  margin-top:0px;
+  position: static;
+}
+
+img.topimage {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  z-index: 90;
+  opacity: 0.75;
+  transition: all 1s;
+  margin: 200px;
+  border: 3px solid #000000;
+  float: right;
+  align-items: center;
+  display: block;
+  margin-left: 0.5%;
+  margin-right: 6%;
+  margin-bottom: 20%;
+  position:relative;
+}
+
+img.topimage:hover {
+  height: 450px;
+  width: 450px;
+  opacity: 1;
+  border-radius: 25%;
+  cursor: pointer;
+}
+
+p.subtitlu:hover {
+  width: 20%;
+  height: 5%;
+  font-weight: 900;
+  color: greenyellow;
+  font-size: 20px;
+  border: 5px solid #000000;
+  opacity: 1;
+  cursor: pointer;
+}
+
+p.titlu:hover{
+  color: greenyellow;
+  opacity: 1;
+}
+
+iframe {
+  border-radius: 20px;
+  align-items: center;
+  margin: 0px;
+  position: relative;
+  left: 25%;
+  top: 50%;
+  margin-bottom: 20%;
+}
+
+audio {
+  align-items: center;
+  position: relative;
+  margin-left: 40%;
+  margin-right:40%;
+}
